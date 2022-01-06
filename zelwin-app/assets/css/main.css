@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #F3BA2F;
+}
+
+h1 {
+    @apply text-[28px] text-black
+}
+
+button {
+    @apply w-36 h-12 rounded mt-4
+}
+
+h2 {
+    @apply text-[18px] text-red-600
+}
+
+h3 {
+    @apply text-[14px] text-gray-400
+}
