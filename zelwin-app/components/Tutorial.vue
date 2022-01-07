@@ -83,7 +83,7 @@
       x-transition:leave-end="opacity-0"
        @click="toggleModal=false"
     >
-      <div class="w-[343px] relative   pt-72 modal mx-2 mx-auto my-10 opacity-300  md:w-[630px] md:h-[340px] md:ml-8 lg:w-[646px] lg:h-[372px]  lg:ml-32 xl:ml-[670px] xl:ml-[388px] 2xl:w-[670px] 2xl:h-[365px] 2xl:ml-[800px] " @click="toggleModal=false" >
+      <div class="w-[343px] relative  mt-72 mr-24  modal mx-2 mx-auto my-10 opacity-300  md:w-[630px] md:h-[340px] md:ml-8 lg:w-[646px] lg:h-[372px]  lg:ml-32 xl:ml-[670px] xl:ml-[388px] 2xl:w-[670px] 2xl:h-[365px] 2xl:ml-[800px] " @click="toggleModal=false" >
         <div
           class="relative bg-gray-100 shadow-lg rounded-2xl text-gray-900 z-20 "
           x-show="showModal1"
@@ -134,7 +134,7 @@
     </div>
 
     </div></div>
-  <div v-if="toggleModal" class="absolute inset-0 z-40  opacity-25 bg-black"></div>
+ 
   
     
   
