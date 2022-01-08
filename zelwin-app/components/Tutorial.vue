@@ -2,12 +2,12 @@
 <template>
 <div>
 
-  <header class=" flex justify-between  px-4 py-3  ">
-    <div class="flex items-center justify-between px-4 py-3 sm:p-0">
+  <header class=" flex justify-between mx-auto  px-4 py-3 pl-2 md:pr-6 xl:mx-auto xl:pr-24      ">
+    <div class="flex items-center justify-between mx-auto px-4 py-3 sm:p-0 xl:pr-24 ">
       <div>
-        <p><img class="w-[204px] h-[28px]  md:-ml-6 xl:ml-20" src="../assets/svg/Group 3 (1).svg"  alt=""></p>
+        <p><img class="w-[204px] h-[28px] md:pr-24 lg:mr-56     " src="../assets/svg/Group 3 (1).svg"  alt=""></p>
       </div>
-       <button class="sm:hidden ml-28 bg-white  w-[153px] h-[44px] rounded-2xl ">Connect Wallet</button>
+       <button class="sm:hidden ml-36 bg-white   w-[153px] h-[44px] rounded-xl ">Connect Wallet</button>
       <div class="sm:hidden">
    
 
@@ -20,11 +20,11 @@
       </div>
     </div>
     
-    <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0 md:mr-2 xl:mr-32">
-      <a href="#" class="block px-2 py-2 text-white font-semibold rounded hover:border-b-2 hover:-mt-2">Stacking</a>
-      <a href="#" class="mt-1 block px-2 py-2 text-white font-semibold rounded hover:border-b-2 hover:-mt-2 sm:mt-0 sm:ml-2">ZlW bridge</a>
-      <a href="#" class="mt-1 block px-2 py-2 text-white font-semibold rounded hover:border-b-2 hover:-mt-2 sm:mt-0 sm:ml-2">SHO</a>
-      <a href="#" class="mt-1  block px-4 py-2 text-gray-700 bg-white w-[155px] h-[44px] font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Connect Wallet</a>
+    <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0 md:ml-24  lg:pl-6 xl:mr-10     ">
+      <a href="#" class="block px-2 py-2 text-black font-semibold rounded hover:border-b-2 hover:border-red-600 hover:-mt-2 hover:text-red-600">Stacking</a>
+      <a href="#" class="mt-1 block px-2 py-2 text-black font-semibold rounded hover:border-b-2 hover:border-red-600  hover:-mt-2 sm:mt-0 sm:ml-2 hover:text-red-600">ZlW bridge</a>
+      <a href="#" class="mt-1 block px-2 py-2 text-black font-semibold rounded hover:border-b-2 hover:border-red-600  hover:-mt-2 sm:mt-0 sm:ml-2 hover:text-red-600">SHO</a>
+      <a href="#" class="mt-1  block px-4 py-2 text-black bg-white w-[155px] h-[44px] font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2" @click="toggleModal = !toggleModal">Connect Wallet</a>
     
     </nav>
   </header>
@@ -32,32 +32,32 @@
 
 
 
-<div class="w-[343px] h-[843px] mx-auto bg-white rounded md:w-[722px] md:h-[525px] md:mx-auto lg:mx-auto lg:w-[974px] lg:h-[579px] xl:w-[1170px] xl:h-[634] 2xl:w-[1270px] h-[634px]   " >
+<div class=" w-[343px] h-[843px] ml-4  bg-white rounded md:mx-auto   md:w-[722px] md:h-[525px]  lg:mx-auto lg:w-[974px] lg:h-[579px] xl:mx-auto xl:w-[1170px] xl:h-[634] 2xl:w-[1270px] h-[634px] 2xl:mx-auto   " >
   
-  <div class="ml-[20px] md:flex md:flex-row xl:ml-28     ">
-    <p class="font-bold text-[24px] md:text-[32px] md:mt-[44px] md:ml-[20px] lg:text-[44px]    ">
+  <div class="ml-[20px] md:flex md:flex-row md:pt-8 md:pl-2 xl:ml-28      ">
+    <p class="font-bold text-[24px] md:text-[32px]  lg:text-[44px]    ">
     Zelwin 
     </p>
-      <p class="font-bold text-[24px] md:ml-2 md:text-[32px] md:mt-[44px]  lg:text-[44px]  ">
+      <p class="font-bold text-[24px] md:pl-2  md:text-[32px]   lg:text-[44px]  ">
        Stacking 
       </p>
-       <p class="font-bold text-[24px] md:ml-2 md:text-[32px] md:mt-[44px]  lg:text-[44px] ">
+       <p class="font-bold text-[24px] md:pl-2  md:text-[32px]   lg:text-[44px] ">
         App
       </p>
   </div>
 
-  <div class="md:flex md:flex-row md:mx-auto md:mt-[20px] xl:ml-36" >
-       <div class="w-[295px]  h-[133px] ml-[20px] mt-2 border-2 rounded-xl hover:bg-gray-200 md:mt-[44px] md:ml-[40px] lg:w-[278px] lg:h-[147px] ">
+  <div class="md:flex md:flex-row md:mx-auto md:pt-12 xl:ml-36" >
+       <div class="w-[295px]  h-[133px] ml-[20px] mt-2 border-2 rounded-xl hover:bg-gray-200   lg:w-[278px] lg:h-[147px] ">
          <h1 class="ml-[20px] mt-[20px]  lg: text-[32px] xl:text-[36px]">30 Days</h1>
          <h2 class="ml-[20px] lg:text-[18px] xl:text-[20px]" >APY:103.23%</h2>
          <h3 class="ml-[20px] lg:text-[18px] xl:text-[20px]">Amount:100-299ZLW</h3>
        </div>
-         <div class="w-[295px]  h-[133px] ml-[20px] mt-2 border-2 rounded-xl hover:bg-gray-200 md:mt-[44px] lg:w-[278px] lg:h-[147px] ">
+         <div class="w-[295px]  h-[133px] ml-[20px] mt-2 border-2 rounded-xl hover:bg-gray-200  lg:w-[278px] lg:h-[147px] ">
          <h1 class="ml-[20px] mt-[20px] lg:text-[32px] xl:text-[36px] ">90 Days</h1>
          <h2 class="ml-[20px] lg:text-[18px] xl:text-[20px]">APY:103.23%</h2>
          <h3 class="ml-[20px] lg:text-[18px] xl:text-[20px]">Amount:100-299ZLW</h3>
        </div>
-         <div class="w-[295px]  h-[133px] ml-[20px] mt-2 border-2 rounded-xl hover:bg-gray-200 md:mt-[44px] md:mr-[20px] lg:w-[278px] lg:h-[147px] ">
+         <div class="w-[295px]  h-[133px] ml-[20px] mt-2 border-2 rounded-xl hover:bg-gray-200 lg:w-[278px] lg:h-[147px] ">
          <h1 class="ml-[20px] mt-[20px] lg:text-[32px] xl:text-[36px]">150 Days</h1>
          <h2 class="ml-[20px] lg:text-[18px] xl:text-[20px]">APY:103.23%</h2>
          <h3 class="ml-[20px] lg:text-[18px] xl:text-[20px]">Amount:100-299ZLW</h3>
@@ -69,7 +69,7 @@
   </div>
   <div>
     <button
-    class="ml-12 mb-12 bg-yellow-300 font-sans font-semibold shadow-lg xl:mt-8 xl:ml-36  hover:bg-yellow-400  " @click="toggleModal = !toggleModal">Connect Wallet</button> 
+    class="ml-4 mb-12 bg-yellow-300 font-sans font-semibold shadow-lg  xl:mt-8 xl:ml-36  hover:bg-yellow-400  " @click="toggleModal = !toggleModal">Connect Wallet</button> 
     <div v-if="toggleModal" class="fixed mt-2 overflow-y-auto inset-24 flex justify-center items-center z-50">
     <div class="relative   mx-auto ">
        <div 
@@ -95,7 +95,7 @@
           x-transition:leave-end="scale-0"
           @click="showModal = false"
         >
-          <header class="flex   md:ml-[340px]  " >
+          <header class="flex   md:ml-[340px] mb-2  " >
             <!-- <h2 class="font-semibold">Locked Stacking</h2> -->
             <button class="focus:outline-none ml-72  md:ml-64   " @click="toggleModal=false">
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -108,7 +108,7 @@
           <div class="flex-auto  bg-gray-100  rounded-2xl  ">
           
                            <div class="container    ">
-                             <p class="font-bold  text-lg text-left md:ml-4 md: lg:text-xl ">Select the payment card that <br> you want to use for payment</p><br>
+                             <p class="font-bold  text-lg text-left md:ml-4 md: lg:text-xl  ">Select the payment card that <br> you want to use for payment</p><br>
                              <p class="text-gray-400 text-left  md:ml-4">The selected wallet will be your stacking </p>
                              
                              <div
@@ -134,7 +134,7 @@
     </div>
 
     </div></div>
- 
+ <div v-if="toggleModal" class="  absolute inset-0 z-40 w-full  opacity-25 bg-black"></div>
   
     
   
