@@ -1,5 +1,5 @@
 <template>
-<div class="bg-[rgba(243,186,47,0.15)] min-h-screen">
+<div class="bg-[rgba(243,186,47,0.15)] w-full min-h-screen">
 <NavBar />
   <!-- <Tutorial /> -->
   <WhiteCard/>
