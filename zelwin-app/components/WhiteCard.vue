@@ -52,7 +52,7 @@
 
  </NiceButton>
 
- <NiceButton class="mt-[16px]  md:mt-[44px] md:ml-[16px] " >
+ <NiceButton class="mt-[16px]  md:mt-[44px] md:ml-[16px] xl:mr-16 " >
       <template #header>
            <div >
               150 days
@@ -60,7 +60,7 @@
            </div>
        </template>
        <template #body1>
-           <div  >
+           <div   >
                
               APY:103,23%
 
@@ -87,17 +87,9 @@
 
 
      <div class="md:flex md:justify-between ">
-<ConnectButton >
-      <template #header>
-           <div class="bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[86.5px] rounded-[12px] mt-[32px] md:mb-[32px]  ">
-              Connect Wallet
 
-           </div>
-       </template>
-    
-     
-
-</ConnectButton>
+         
+<ModalComponent />
 <ConnectButton >
       <template #header>
            <div class=" border-2 border-[#DFEBF5] pt-[18px] pl-[86.5px] pb-[18px] pr-[86.5px] rounded-[12px] mt-[20px] mb-[68px] md:mt-[44px] md:mb-[44px] md:justify-end ">
@@ -119,10 +111,12 @@
 <script>
 import NiceButton from "./NiceButton.vue"
 import ConnectButton from "./ConnectButton.vue"
+import ModalComponent from "./ModalComponent.vue"
 export default {
     components : {
     NiceButton,
-    ConnectButton
+    ConnectButton,
+    ModalComponent
 }
 }
 </script>

@@ -3,6 +3,7 @@
 <NavBar />
   <!-- <Tutorial /> -->
   <WhiteCard/>
+  
   </div>
 </template>
 
@@ -16,3 +17,4 @@ export default {
     otherName: "modal",
 }
 </script>
+
