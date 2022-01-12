@@ -1,10 +1,10 @@
 <template>
-<div class="w-[343px]  bg-white rounded-[24px] ml-[12.5px]  md:w-[722px]  lg:w-[974px] xl:w-[1170px] 2xl:w-[1270px] px-[24px] py-[28px] md:px-[36px] md:py-[44px]" >
- <div class="text-[24px] flex font-bold "> ZELWIN STAKING APP </div>
+<div class="w-[343px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:pr-4  lg:w-[974px] xl:w-[1170px] 2xl:w-[1270px] px-[24px] py-[28px] md:px-[36px] md:py-[44px]" >
+ <div class="text-[24px] flex font-bold md:text-[32px] md:font-extrabold lg:text-[44px]   "> ZELWIN STAKING APP </div>
 
 
-<div class=" md:flex  ">
- <NiceButton class="md:h-[133px] md:mt-[44px]" >
+<div class="md:flex md:justify-center  xl:flex xl:justify-between  ">
+ <NiceButton class=" md:mt-[44px]  " >
       <template #header>
            <div class="text-left ">
                30 days
@@ -28,7 +28,7 @@
 
  </NiceButton>
 
- <NiceButton class="mt-[15px] md:h-[133px] md:mt-[44px] md:ml-[16px]" >
+ <NiceButton class="mt-[15px]  md:mt-[44px] md:ml-[16px]" >
       <template #header>
            <div >
               90 days
@@ -52,7 +52,7 @@
 
  </NiceButton>
 
- <NiceButton class="mt-[16px] md:h-[133px] md:mt-[44px] md:ml-[16px] " >
+ <NiceButton class="mt-[16px]  md:mt-[44px] md:ml-[16px] " >
       <template #header>
            <div >
               150 days
@@ -77,9 +77,9 @@
  
 
 </div>
-<div class="flex w-[295px] bg-[#EFF3F8] rounded-[16px] mt-[28px] text-center md:w-[648px]  ">
+<div class="flex w-[295px] bg-[#EFF3F8] rounded-[16px] mt-[28px] text-center md:w-[648px] lg:w-[886px] xl:w-[1058px] 2xl:w-[1058px]  ">
     
-     <img src="../assets/svg/Informatıon.svg" alt="" class="w-[24px] h-[24px] mt-[16px] ml-[16.27px] md:ml-20 " >
+     <img src="../assets/svg/Informatıon.svg" alt="" class="w-[24px] h-[24px] mt-[16px] ml-[16.27px]  " >
      <p class="pt-[16px] pb-[16px] mr-[22px] md:pl-[20px] ">To perform actions on the page,connect your wallet</p>
     
      </div>
