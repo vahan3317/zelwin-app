@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="xl:mr-24  ">
     
    <ConnectButton >
       <template #header>
-           <div class=" w-[164px] pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-32 xl:mr-24 "   @click="toggleModal()">
+           <div class=" w-[164px] ml-16 pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-28    "   @click="toggleModal()">
               Connect Wallet
 
            </div>
@@ -13,9 +13,9 @@
 
 </ConnectButton>
     <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex  " @click="toggleModal()">
-      <div class="relative w-auto h-auto  my-6 mx-auto max-w-3xl md:w-[630px] md:h-[365px] rounded-[24px] ">
+      <div class="relative w-auto h-auto  my-6 mx-auto max-w-3xl md:w-[630px] md:h-[365px]  ">
         <!--content-->
-        <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+        <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none rounded-[24px]">
           <!--header-->
           <div class="flex items-start justify-between   border-solid border-blueGray-200 rounded-t">
            

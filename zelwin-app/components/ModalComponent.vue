@@ -13,16 +13,16 @@
 
 </ConnectButton>
     <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex  " @click="toggleModal()">
-      <div class="relative w-auto h-auto  my-6 mx-auto max-w-3xl md:w-[630px] md:h-[365px] rounded-[24px] ">
+      <div class="relative   my-6 mx-auto max-w-3xl  rounded-[24px] ">
         <!--content-->
-        <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+        <div class="border-px mx-auto md:w-[630px] md:h-[365px]  relative flex flex-col w-full bg-white outline-none focus:outline-none rounded-[24px]">
           <!--header-->
-          <div class="flex items-start justify-between   border-solid border-blueGray-200 rounded-t">
+          <div class="flex items-start justify-between   ">
            
             
           </div>
            <div class="relative  flex-auto">
-            <button class="p-1 ml-auto bg-transparent border-0 text-black  float-right text-3xl leading-none font-semibold outline-none focus:outline-none" @click="toggleModal()">
+            <button class="p-4 ml-auto bg-transparent   float-right text-3xl leading-none font-semibold outline-none focus:outline-none" @click="toggleModal()">
               <span class="bg-transparent text-gray-300  w-[44px] h-[44px]  block outline-none focus:outline-none" @click="toggleModal()">
                 X
               </span>

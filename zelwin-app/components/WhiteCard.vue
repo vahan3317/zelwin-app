@@ -1,5 +1,5 @@
 <template>
-<div class="mt-[60px] w-[343px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px]   lg:w-[974px] xl:w-[1170px]   md:px-[36px] md:py-[44px]" >
+<div class=" ml-[12.5px] mt-[60px] w-[344.5px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
  <div class="text-[24px] flex font-bold md:text-[32px] md:font-extrabold lg:text-[44px] xl:pl-[28px]      "> ZELWIN STAKING APP </div>
 
 
