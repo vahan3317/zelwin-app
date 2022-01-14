@@ -3,7 +3,7 @@
     
    <ConnectButton >
       <template #header>
-           <div class=" w-[164px] pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg "   @click="toggleModal()">
+           <div class=" w-[164px] pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-32 xl:mr-24 "   @click="toggleModal()">
               Connect Wallet
 
            </div>
