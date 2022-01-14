@@ -1,17 +1,10 @@
 <template>
-  <div class="xl:mr-24  ">
-    
-   <ConnectButton >
-      <template #header>
-           <div class=" w-[164px] ml-16 pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-28    "   @click="toggleModal()">
-              Connect Wallet
-
-           </div>
-       </template>
-    
+  <div class="xl:mr-4"
+    >
+    <button @click="toggleModal()" ><slot name="button"> Connect Wallet </slot></button>
+    <div v-if="showModal"  >
      
-
-</ConnectButton>
+    
     <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex  " @click="toggleModal()">
       <div class="relative   my-6 mx-auto  ">
         <!--content-->
@@ -38,7 +31,7 @@
             </p>
           </div>
           
-    
+          
           <div class="flex   xl:mt-[24px]   md:mt-[24px] mt-[24px]  ">
            <div class="flex ml-[56px] pt-[36px] pb-[32px]   mb-[56px] pl-[57px] pr-[57px] w-[273px] border-2 rounded-[12px]  md:mr-[56px]        hover:bg-gray-300 "  @click="connectMetamask()" >
                                     <img
@@ -53,6 +46,10 @@ src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg"
       </div>
     </div>
     <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
+     
+     
+     </div>
+   
   </div>
 </template>
 
@@ -77,3 +74,5 @@ ethereum.request({ method: 'eth_requestAccounts' });
   }
 }
 </script>
+
+<style></style>

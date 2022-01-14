@@ -1,5 +1,5 @@
 <template>
-<div class=" ml-[12.5px] mt-[60px] w-[344.5px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
+<div class="  mt-[60px] w-[344.5px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
  <div class="text-[24px] flex font-bold md:text-[32px] md:font-extrabold lg:text-[44px] xl:pl-[28px]      "> ZELWIN STAKING APP </div>
 
 
@@ -89,7 +89,22 @@
      <div class="md:flex md:justify-between ">
 
  <div class="xl:pl-4">        
-<ModalComponent />
+<ModalMeta>
+       <template #button>
+           <div class="bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[86.5px] rounded-[12px] mt-[44px] md:mb-[32px]   " @click="toggleModal()">
+Connect Wallet
+           </div>
+
+       </template>
+       <template #modal>
+           <div>
+               
+           </div>
+       </template>
+   </ModalMeta>
+
+
+
 </div>
 <ConnectButton class="xl:pr-4" >
       <template #header>
@@ -112,12 +127,12 @@
 <script>
 import NiceButton from "./NiceButton.vue"
 import ConnectButton from "./ConnectButton.vue"
-import ModalComponent from "./ModalComponent.vue"
+
 export default {
     components : {
     NiceButton,
     ConnectButton,
-    ModalComponent
+    
 },
 methods:{
     connectMetamask(){
@@ -125,7 +140,10 @@ methods:{
 // eslint-disable-next-line no-undef
 ethereum.request({ method: 'eth_requestAccounts' });
       
-    }
+    },
+     toggleModal() {
+            this.showModal = !this.showModal;
+        },
 }
 }
 </script>

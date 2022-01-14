@@ -6,19 +6,31 @@
         <img class="min-w-[104px]    md:ml-2 :  " src="../assets/svg/Group 3 (1).svg">
      
      </div>
-      <!-- <button class="bg-white w-[153px]  rounded-xl flex justify-center pl-[15px] pt-[13px] pb-[13px] pr-[16px]  text-[16px]   lg:mr-2 xl:mr-28       " @click="toggleModal()">Connect Wallet</button> -->
-    <ModalForWhiteButton  class=""></ModalForWhiteButton>
+   <ModalMeta>
+       <template #button>
+           <div class="w-[164px] ml-16 pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-28 xl:mr-24    " @click="toggleModal()">
+Connect Wallet
+           </div>
+
+       </template>
+       <template #modal>
+           <div>
+               
+           </div>
+       </template>
+   </ModalMeta>
   </div>
 
  </div>
 </template>
 
 <script>
-import ModalForWhiteButton from "./ModalForWhiteButton.vue";
+// import ModalForWhiteButton from "./ModalForWhiteButton.vue";
+import ModalMeta from "./ModalMeta.vue";
 
 export default {
     otherName: "showmodal",
-    components: { ModalForWhiteButton },
+    components: {  ModalMeta },
     data() {
         return {};
     },
