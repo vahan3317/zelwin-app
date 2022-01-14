@@ -13,7 +13,7 @@
 
 </ConnectButton>
     <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex  " @click="toggleModal()">
-      <div class="relative w-auto h-auto  my-6 mx-auto max-w-3xl md:w-[630px] md:h-[365px]  ">
+      <div class="relative w-auto h-auto  my-6 mx-auto  md:w-[630px] md:h-[365px]  ">
         <!--content-->
         <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none rounded-[24px]">
           <!--header-->
@@ -28,7 +28,7 @@
               </span>
             </button>
             <p class=" md:text-[16px] font-bold  xl:text-[24px] leading-relaxed pt-[61px] max-w-[423px]  md:pl-[56px] ">
-             Select the payment card that <br> you want to use for paymant
+             Select the payment card that that <br> you want to use for paymant
             </p>
           </div>
           <!--body-->
