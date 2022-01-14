@@ -38,7 +38,7 @@
             </p>
           </div>
           
-          
+    
           <div class="flex   xl:mt-[24px]   md:mt-[24px] mt-[24px]  ">
            <div class="flex ml-[56px] pt-[36px] pb-[32px]   mb-[56px] pl-[57px] pr-[57px] w-[273px] border-2 rounded-[12px]  md:mr-[56px]        hover:bg-gray-300 "  @click="connectMetamask()" >
                                     <img
