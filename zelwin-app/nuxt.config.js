@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'zelwin-app',
+    title: 'zelwin-staking-app',
     htmlAttrs: {
       lang: 'en',
     },
