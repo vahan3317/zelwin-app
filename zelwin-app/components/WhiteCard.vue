@@ -4,7 +4,7 @@
 
 
 <div class=" mt-[29px] md:flex md:justify-around    ">
- <NiceButton class=" md:mt-[15px] md:mr-[16px]    " >
+ <NiceButton class=" md:mt-[15px]  md:mr-[16px] xl:ml-[16px]    " >
       <template #header>
            <div class="  ">
                30 days
@@ -52,7 +52,7 @@
 
  </NiceButton>
 
- <NiceButton class=" mt-[15px] md:ml-[16px] lg:ml-[16px] " >
+ <NiceButton class=" mt-[15px] md:ml-[16px] lg:ml-[16px] xl:mr-[16px] " >
       <template #header>
            <div >
               150 days
@@ -77,13 +77,24 @@
  
 
 </div>
-<div class="flex w-[295px] bg-[#EFF3F8] rounded-[16px] mt-[28px]  md:w-[648px] lg:w-[886px] xl:w-[1058px] xl:ml-6  ">
+<!-- <div class="flex w-[295px] bg-[#EFF3F8] rounded-[16px] mt-[28px]  md:w-[648px] lg:w-[886px] xl:w-[1058px] xl:ml-6  ">
     
      <img src="../assets/svg/Informatıon.svg" alt="" class="w-[24px] h-[24px] mt-[16px] ml-[16.27px]  " >
      <p class="pt-[16px] pb-[16px] mr-[22px] md:pl-[20px] text-[16px] text-[#828A97] ">To perform actions on the page,connect your wallet</p>
     
-     </div>
-
+     </div> -->
+<GrayDiv>
+    <template #img>
+        <div>
+            <img src="../assets/svg/Informatıon.svg" alt="" >
+        </div>
+    </template>
+      <template #text>
+        <div>
+            <p>To perform actions on the page,connect your wallet</p>
+        </div>
+    </template>
+</GrayDiv>
 
 
      <div class="md:flex md:justify-between ">
@@ -91,7 +102,7 @@
  <div class="xl:pl-4">        
 <ModalMeta>
        <template #button>
-           <div class="bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[86.5px] rounded-[12px] mt-[44px] md:mb-[32px]   " @click="toggleModal()">
+           <div class=" w-[295px]  bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[88.5px] rounded-[12px] mt-[44px] md:mb-[32px]   " @click="toggleModal()">
 Connect Wallet
            </div>
 
@@ -108,7 +119,7 @@ Connect Wallet
 </div>
 <ConnectButton class="xl:pr-4" >
       <template #header>
-           <div class=" border-2 border-[#DFEBF5] pt-[18px] pl-[86.5px] pb-[18px] pr-[86.5px] rounded-[12px] mt-[20px] mb-[68px] md:mt-[44px] md:mb-[44px] md:justify-end ">
+           <div class=" border-2 border-[#DFEBF5] pt-[18px] pl-[97.18px] pb-[18px] pr-[96.82px] rounded-[12px] mt-[20px] mb-[68px] md:mt-[44px] md:mb-[44px] md:justify-end ">
               View Contract
 
            </div>
@@ -127,12 +138,13 @@ Connect Wallet
 <script>
 import NiceButton from "./NiceButton.vue"
 import ConnectButton from "./ConnectButton.vue"
+import GrayDiv from "./GrayDiv.vue";
 
 export default {
     components : {
     NiceButton,
     ConnectButton,
-    
+    GrayDiv
 },
 methods:{
     connectMetamask(){

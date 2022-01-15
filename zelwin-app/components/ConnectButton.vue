@@ -1,6 +1,6 @@
 <template>
   <button
-    class="w-[295px] text-center ">
+    class=" text-center ">
     <div class="text-center "><slot name="header">  </slot></div>
   
     <slot> </slot>

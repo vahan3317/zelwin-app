@@ -6,10 +6,12 @@
         <img class="min-w-[104px]    md:ml-2 :  " src="../assets/svg/Group 3 (1).svg">
      
      </div>
+
+
    <ModalMeta>
        <template #button>
            <div class="w-[164px] ml-16 pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-28 xl:mr-24    " @click="toggleModal()">
-Connect Wallet
+                Connect Wallet
            </div>
 
        </template>
@@ -19,13 +21,15 @@ Connect Wallet
            </div>
        </template>
    </ModalMeta>
+
   </div>
 
  </div>
+
 </template>
 
 <script>
-// import ModalForWhiteButton from "./ModalForWhiteButton.vue";
+
 import ModalMeta from "./ModalMeta.vue";
 
 export default {
