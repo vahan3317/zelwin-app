@@ -1,10 +1,10 @@
 <template>
-<div class="  mt-[60px] w-[344.5px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
- <div class="text-[24px] flex font-bold md:text-[32px] md:font-extrabold lg:text-[44px] xl:pl-[28px]      "> ZELWIN STAKING APP </div>
+<div class="  mt-[60px] mb-[28px] w-[344.5px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
+ <div class="text-[24px] flex font-bold md:text-[32px] md:font-extrabold lg:text-[44px] lg:pl-[16px] xl:pl-[16px]      "> ZELWIN STAKING APP </div>
 
 
-<div class=" mt-[29px] md:flex md:justify-around    ">
- <NiceButton class=" md:mt-[15px]  md:mr-[16px] xl:ml-[16px]    " >
+<div class=" mt-[29px]  flex  flex-col justify-between md:flex md:flex-row  lg:pr-[16px] lg:pl-[16px] xl:pr-[16px]     ">
+ <NiceButton class=" mt-[15px]     " >
       <template #header>
            <div class="  ">
                30 days
@@ -28,7 +28,7 @@
 
  </NiceButton>
 
- <NiceButton class="mt-[15px]  " >
+ <NiceButton class="mt-[15px] md:ml-[16px]  " >
       <template #header>
            <div >
               90 days
@@ -52,7 +52,7 @@
 
  </NiceButton>
 
- <NiceButton class=" mt-[15px] md:ml-[16px] lg:ml-[16px] xl:mr-[16px] " >
+ <NiceButton class=" mt-[15px] md:ml-[16px]  " >
       <template #header>
            <div >
               150 days
@@ -83,7 +83,7 @@
      <p class="pt-[16px] pb-[16px] mr-[22px] md:pl-[20px] text-[16px] text-[#828A97] ">To perform actions on the page,connect your wallet</p>
     
      </div> -->
-<GrayDiv>
+<GrayDiv class="">
     <template #img>
         <div>
             <img src="../assets/svg/Informatıon.svg" alt="" >
@@ -99,7 +99,7 @@
 
      <div class="md:flex md:justify-between ">
 
- <div class="xl:pl-4">        
+ <div class="lg:pl-[16px] xl:pl-4">        
 <ModalMeta>
        <template #button>
            <div class=" w-[295px]  bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[88.5px] rounded-[12px] mt-[44px] md:mb-[32px]   " @click="toggleModal()">
