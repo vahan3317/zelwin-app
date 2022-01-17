@@ -3,7 +3,7 @@
  <div class="xl:border-b-2  xl:border-white xl:h-[88px] md:h-[68]  lg:border-b-2 lg:border-white md:border-b-2 md:border-white ">
   <div class="flex justify-between  items-center mx-auto px-[16px] py-[16px] md:justify-between md:mr-2    ">
       <div class="flex items-center  justify-center xl:ml-28 ">
-        <img class="min-w-[104px]    md:ml-2 :  " src="../assets/svg/Group 3 (1).svg">
+        <img class="min-w-[104px]    md:ml-4 :  " src="../assets/svg/Group 3 (1).svg">
      
      </div>
 
