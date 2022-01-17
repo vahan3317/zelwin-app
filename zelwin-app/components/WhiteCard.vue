@@ -102,7 +102,7 @@
  <div class="lg:pl-[16px] xl:pl-4">        
 <ModalMeta>
        <template #button>
-           <div class=" w-[295px]  bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[88.5px] rounded-[12px] mt-[44px] md:mb-[32px]   " @click="toggleModal()">
+           <div class=" w-[295px]  bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[88.5px] rounded-[12px] mt-[44px]    " @click="toggleModal()">
 Connect Wallet
            </div>
 
@@ -119,7 +119,7 @@ Connect Wallet
 </div>
 <ConnectButton class="xl:pr-4" >
       <template #header>
-           <div class=" border-2 border-[#DFEBF5] pt-[18px] pl-[97.18px] pb-[18px] pr-[96.82px] rounded-[12px] mt-[20px] mb-[68px] md:mt-[44px] md:mb-[44px] md:justify-end ">
+           <div class=" border-2 border-[#DFEBF5] pt-[18px] pl-[97.18px] pb-[18px] pr-[96.82px] rounded-[12px] mt-[20px]  md:mt-[44px]  md:justify-end ">
               View Contract
 
            </div>
