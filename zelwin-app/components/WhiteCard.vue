@@ -1,9 +1,9 @@
 <template>
-<div class="  mt-[60px] mb-[28px] w-[344.5px] px-[24px] py-[28px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
- <div class="text-[24px] flex font-bold md:text-[32px] md:font-extrabold lg:text-[44px] lg:pl-[16px] xl:pl-[16px]      "> ZELWIN STAKING APP </div>
+<div class="flex flex-col  mt-[60px] mb-[28px] w-[344.5px] px-[26px] pt-[28px]  md:pt-[44px] md:px-[36px] lg:pt-[56px] lg:px-[44px] xl:pt-[64px] xl:px-[56px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
+ <div class="text-[24px] flex  font-bold md:text-[32px] md:font-extrabold lg:text-[44px]      "> ZELWIN STAKING APP </div>
 
 
-<div class=" mt-[29px]  flex  flex-col justify-between md:flex md:flex-row  lg:pr-[16px] lg:pl-[16px] xl:pr-[16px]     ">
+<div class=" mt-[29px]   flex  flex-col justify-between md:flex md:flex-row       ">
  <NiceButton class=" mt-[15px]     " >
       <template #header>
            <div class="  ">
@@ -28,7 +28,7 @@
 
  </NiceButton>
 
- <NiceButton class="mt-[15px] md:ml-[16px]  " >
+ <NiceButton class="mt-[15px] md:ml-[16px] lg:ml-[26px] xl:ml-[32px]  " >
       <template #header>
            <div >
               90 days
@@ -52,7 +52,7 @@
 
  </NiceButton>
 
- <NiceButton class=" mt-[15px] md:ml-[16px]  " >
+ <NiceButton class=" mt-[15px] md:ml-[16px] lg:ml-[26px]   " >
       <template #header>
            <div >
               150 days
