@@ -1,7 +1,7 @@
 <template>
-  <div class="xl:mr-4"
+  <div class=""
     >
-    <button @click="toggleModal()" ><slot name="button"> Connect Wallet </slot></button>
+    <button class="flex justify-center  "  @click="toggleModal()"  ><slot name="button">  </slot></button>
     <div v-if="showModal"  >
      
     
@@ -19,7 +19,7 @@
             </button>
            
            <div class=" max-w-[423px]   text-[24px] font-extrabold  ">
-             Select the payment card that  you want to use for paymant
+             Select the payment card that  you want to use for payment
            </div>
                      
           
@@ -30,8 +30,8 @@
           </div>
           
           
-         
-           <div class="align-self flex justify-center  items-center  w-[295px] h-[108px]  md:w-[230px]   mt-[24px]       border-2 rounded-[12px]        hover:bg-gray-300 "  @click="connectMetamask()" >
+          
+                      <div class=" mx-auto flex justify-center  items-center  w-[295px] h-[108px]  md:w-[230px]   mt-[24px]       border-2 rounded-[12px]        hover:bg-gray-300 "  @click="connectMetamask()" >
                                     <img
 src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg"
                                               class="w-[44px] h-[44px] ">
@@ -39,6 +39,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg"
                                             </div>
                                   
                                          
+
         
         </div>
       

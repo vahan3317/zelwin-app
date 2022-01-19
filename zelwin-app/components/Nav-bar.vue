@@ -1,16 +1,16 @@
 <template>
  
  <div class="xl:border-b-2  xl:border-white xl:h-[88px] md:h-[68]  lg:border-b-2 lg:border-white md:border-b-2 md:border-white ">
-  <div class="flex justify-between  items-center mx-auto px-[16px] py-[16px] md:justify-between md:mr-2    ">
-      <div class="flex items-center  justify-center xl:ml-28 ">
-        <img class="min-w-[104px]    md:ml-4 :  " src="../assets/svg/Group 3 (1).svg">
+  <div class="flex justify-between  items-center mx-auto px-[16px] py-[16px] md:justify-between md:w-[722px] lg:w-[974px]  xl:w-[1170px]    ">
+      <div class="flex items-center  justify-center  ">
+        <img class="min-w-[104px]      " src="../assets/svg/Group 3 (1).svg">
      
      </div>
 
 
    <ModalMeta>
        <template #button>
-           <div class="w-[164px] ml-16 pl-[25px]  pt-[14px] pr-[25.63px]  pb-[14px] bg-white rounded-lg md:ml-28 xl:mr-24    " @click="toggleModal()">
+           <div class="flex justify-center items-center w-[164px] h-[48px]  bg-white rounded-lg md:ml-28     " @click="toggleModal()">
                 Connect Wallet
            </div>
 

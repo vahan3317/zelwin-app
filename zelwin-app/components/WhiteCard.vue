@@ -1,6 +1,6 @@
 <template>
 <div class="flex flex-col  mt-[60px] mb-[28px] w-[344.5px] px-[26px] pt-[28px]  md:pt-[44px] md:px-[36px] lg:pt-[56px] lg:px-[44px] xl:pt-[64px] xl:px-[56px]  bg-white rounded-[24px] mx-auto  md:w-[722px] md:mx-auto   lg:w-[974px] xl:w-[1170px] xl:mx-auto   md:px-[36px] md:py-[44px]" >
- <div class="text-[24px] flex  font-bold md:text-[32px] md:font-extrabold lg:text-[44px]      "> ZELWIN STAKING APP </div>
+ <div class="text-[24px] flex  font-bold md:text-[32px] md:font-extrabold lg:text-[44px]  font-['Montserrat']     "> ZELWIN STAKING APP </div>
 
 
 <div class=" mt-[29px]   flex  flex-col justify-between md:flex md:flex-row       ">
@@ -28,7 +28,7 @@
 
  </NiceButton>
 
- <NiceButton class="mt-[15px] md:ml-[16px] lg:ml-[26px] xl:ml-[32px]  " >
+ <NiceButton class="mt-[15px] md:ml-[16px] lg:ml-[26px] xl:ml-[32px]   " >
       <template #header>
            <div >
               90 days
@@ -77,12 +77,7 @@
  
 
 </div>
-<!-- <div class="flex w-[295px] bg-[#EFF3F8] rounded-[16px] mt-[28px]  md:w-[648px] lg:w-[886px] xl:w-[1058px] xl:ml-6  ">
-    
-     <img src="../assets/svg/Informatıon.svg" alt="" class="w-[24px] h-[24px] mt-[16px] ml-[16.27px]  " >
-     <p class="pt-[16px] pb-[16px] mr-[22px] md:pl-[20px] text-[16px] text-[#828A97] ">To perform actions on the page,connect your wallet</p>
-    
-     </div> -->
+
 <GrayDiv class="">
     <template #img>
         <div>
@@ -97,12 +92,12 @@
 </GrayDiv>
 
 
-     <div class="md:flex md:justify-between ">
+     <div class=" mt-[24px] md:mt-[44px] pb-[68px] md:pb-[44px] lg:pb-[56px] xl:pb-[64px] md:flex md:justify-between  ">
 
- <div class="lg:pl-[16px] xl:pl-4">        
+      
 <ModalMeta>
        <template #button>
-           <div class=" w-[295px]  bg-[#FFD42C] pt-[18px] pl-[86.5px] pb-[18px] pr-[88.5px] rounded-[12px] mt-[44px]    " @click="toggleModal()">
+           <div class=" flex justify-center items-center w-[295px] h-[56px]  bg-[#FFD42C]  rounded-[12px]  text-white md:w-[230px] font-bold   " @click="toggleModal()">
 Connect Wallet
            </div>
 
@@ -116,10 +111,10 @@ Connect Wallet
 
 
 
-</div>
-<ConnectButton class="xl:pr-4" >
+
+<ConnectButton  >
       <template #header>
-           <div class=" border-2 border-[#DFEBF5] pt-[18px] pl-[97.18px] pb-[18px] pr-[96.82px] rounded-[12px] mt-[20px]  md:mt-[44px]  md:justify-end ">
+           <div class="flex justify-center items-center mt-[20px] md:mt-0 w-[295px] h-[56px] border-2 border-[#DFEBF5]   rounded-[12px]      md:w-[230px]  ">
               View Contract
 
            </div>
